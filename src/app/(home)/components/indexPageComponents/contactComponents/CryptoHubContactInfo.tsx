@@ -10,8 +10,8 @@ const CryptoHubContactInfo = () => {
       <h1 className="text-3xl font-bold mb-6 text-dark dark:text-light">
         {"Let's talk about your project."}
       </h1>
-      <div className="grid grid-cols-2 gap-8">
-        <div className="w-2/3">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8">
+        <div className="w-full lg:w-2/3">
           <h2 className="text-dark dark:text-light font-semibold mb-4">
             Our Location
           </h2>
@@ -19,7 +19,7 @@ const CryptoHubContactInfo = () => {
             401 Broadway, 24th Floor, Orchard Cloud View, London
           </p>
         </div>
-        <div className="w-2/3">
+        <div className="w-full lg:w-2/3">
           <h2 className="text-dark dark:text-light font-semibold mb-4">
             Phone Number
           </h2>
@@ -30,7 +30,7 @@ const CryptoHubContactInfo = () => {
             +550 9475 4543
           </p>
         </div>
-        <div className="w-2/3">
+        <div className="w-full lg:w-2/3">
           <h2 className="text-dark dark:text-light font-semibold mb-4">
             Email Address
           </h2>
@@ -41,7 +41,7 @@ const CryptoHubContactInfo = () => {
             contact@yourdomain.com
           </p>
         </div>
-        <div className="w-2/3">
+        <div className="w-full lg:w-2/3">
           <h2 className="text-dark dark:text-light font-semibold mb-4">
             How Can We Help?
           </h2>

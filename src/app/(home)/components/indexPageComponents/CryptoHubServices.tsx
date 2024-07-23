@@ -53,13 +53,13 @@ const services = [
 
 const CryptoHubServices: FC<Props> = (props): JSX.Element => {
   return (
-    <section className="relative lg:overflow-hidden w-full h-full border-b-0 border-primary border-opacity-25">
-      <CryptoHubMaxWidth className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:pt-10 pb-[2rem] lg:pb-16 px-5 lg:px-[5rem] 2xl:px-[8.25rem] items-center justify-center">
+    <section className="relative lg:overflow-hidden w-full h-full">
+      <CryptoHubMaxWidth className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:pt-8 lg:pb-8 px-5 lg:px-[5rem] 2xl:px-[8.25rem] items-center justify-center">
         <div className="flex flex-col gap-8 md:gap-10 py-8 px-4 md:px-0 w-full md:w-[70%] mx-auto ">
           <div className="w-full">
-            <h2 className="text-center text-3xl font-semibold text-primary text-opacity-70 mb-3">
+            <h3 className="text-center text-lg font-semibold text-primary text-opacity-70">
               Our Services
-            </h2>
+            </h3>
           </div>
           <ul className="list-none flex flex-col gap-8 md:gap-12 relative">
             {services.map((item, index) => (
