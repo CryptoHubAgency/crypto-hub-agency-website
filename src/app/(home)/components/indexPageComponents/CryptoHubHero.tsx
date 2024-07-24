@@ -11,10 +11,10 @@ const CryptoHubHero: FC<Props> = (props): JSX.Element => {
     <section className="relative lg:overflow-hidden w-full h-full">
       <div className="absolute inset-0 z-0 lg:hidden h-[60vh] sm:h-[70vh] md:h-[80vh]">
         <LottieAnimation className="h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-light dark:bg-dark opacity-70"></div>
+        <div className="absolute inset-0 bg-light dark:bg-dark opacity-70 " />
       </div>
       <CryptoHubMaxWidth className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:pt-8 pb-[2rem] lg:pb-8 px-5 lg:px-[5rem] 2xl:px-[8.25rem] justify-between">
-        <div className="text-dark dark:text-light flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2 h-[70vh] sm:h-[80vh] md:h-[90vh] gap-4 lg:gap-7">
+        <div className="text-dark dark:text-light flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2 h-[50vh] sm:h-[60vh] md:h-[70vh] gap-4 lg:gap-7">
           <CryptoHubHeading className="text-center lg:text-left">
             Crypto, ICO and Web3
           </CryptoHubHeading>

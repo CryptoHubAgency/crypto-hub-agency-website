@@ -3,8 +3,8 @@ import React from "react";
 
 const CryptoHubContactForm = () => {
   return (
-    <div className="bg-secondary-light dark:bg-secondary-dark bg-opacity-10 dark:bg-opacity-15 p-8 rounded-lg shadow-md w-full">
-      <h2 className="text-dark dark:text-light text-2xl font-semibold mb-6">
+    <div className="bg-secondary-light dark:bg-secondary-dark bg-opacity-10 dark:bg-opacity-15 p-4 lg:p-8 rounded-lg shadow-md w-full">
+      <h2 className="text-dark dark:text-light text-lg lg:text-2xl font-semibold mb-4">
         Send us a Message
       </h2>
       <form>

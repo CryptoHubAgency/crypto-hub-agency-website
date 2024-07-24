@@ -9,13 +9,13 @@ interface Props {}
 
 const CryptoHubAboutUs: FC<Props> = (props): JSX.Element => {
   return (
-    <section className="relative lg:overflow-hidden w-full h-full">
+    <section className="relative lg:overflow-hidden w-full h-full border-b border-secondary-light dark:border-secondary-dark">
       <CryptoHubMaxWidth className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 pt-8 pb-8 px-5 lg:px-[5rem] 2xl:px-[8.25rem] items-center justify-center">
         <div className="text-dark dark:text-light flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2 gap-4 lg:gap-7 ">
           <div className="flex gap-4 items-center">
             <div className="hidden lg:flex w-8 h-0 border-2 border-primary border-opacity-70" />
             <h3 className="text-lg font-semibold text-primary text-opacity-70">
-              About Us
+              ABOUT US
             </h3>
           </div>
           <CryptoHubHeading

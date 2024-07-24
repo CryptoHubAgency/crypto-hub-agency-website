@@ -29,7 +29,7 @@ const CryptoHubMobileNav: FC<Props> = (props): JSX.Element => {
 
   return (
     <div className="lg:hidden">
-      <div className="flex justify-between px-5 pt-6 pb-4 text-primary">
+      <div className="flex justify-between px-5 pt-3 pb-4 text-primary">
         <Link href={"/"}>
           <CryptoHubLogo />
         </Link>

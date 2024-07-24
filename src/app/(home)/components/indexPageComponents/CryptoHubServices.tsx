@@ -58,7 +58,7 @@ const CryptoHubServices: FC<Props> = (props): JSX.Element => {
         <div className="flex flex-col gap-8 md:gap-10 py-8 px-4 md:px-0 w-full md:w-[70%] mx-auto ">
           <div className="w-full">
             <h3 className="text-center text-lg font-semibold text-primary text-opacity-70">
-              Our Services
+              OUR SERVICES
             </h3>
           </div>
           <ul className="list-none flex flex-col gap-8 md:gap-12 relative">

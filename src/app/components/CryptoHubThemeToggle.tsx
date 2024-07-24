@@ -20,26 +20,26 @@ const CryptoHubThemeToggle = () => {
       <button
         onClick={() => setTheme("light")}
         className={classNames(
-          "w-8 h-8 rounded-full flex p-2 items-center justify-center",
+          "w-6 lg:w-8 aspect-square rounded-full flex p-1 items-center justify-center",
           {
             "bg-primary text-white": theme === "light",
             "text-gray-300": theme !== "light",
           }
         )}
       >
-        <RiSunFill size={20} />
+        <RiSunFill className="text-xs lg:text-xl" />
       </button>
       <button
         onClick={() => setTheme("dark")}
         className={classNames(
-          "w-8 h-8 rounded-full flex p-2 items-center justify-center",
+          "w-6 lg:w-8 aspect-square rounded-full flex p-1 items-center justify-center",
           {
             "bg-primary text-white": theme === "dark",
             "text-gray-500": theme !== "dark",
           }
         )}
       >
-        <RiMoonFill size={20} />
+        <RiMoonFill className="text-xs lg:text-xl" />
       </button>
     </div>
   );
